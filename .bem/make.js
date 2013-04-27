@@ -17,10 +17,6 @@ MAKE.decl('Arch', {
                 type: 'git',
                 url: 'git://github.com/bem/bem-bl.git',
                 treeish: '0.3'
-            },
-            'bemhtml' : {
-                type: 'git',
-                url: 'git://github.com/bem/bemhtml.git'
             }
         };
 
