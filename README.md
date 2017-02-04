@@ -93,17 +93,11 @@ npm start -- --port=8181
 
 #### Stop the server
 
-Press `Ctrl` + `C` or `⌘` + `C` (for MAC devices) while the terminal is your active window to stop the server.
+Press `Ctrl` + `C` while the terminal is your active window to stop the server.
 
 #### Add a block
 
-If you want to use `bem-tools` to create new blocks, you should install additional dependencies:
-
-```bash
-npm i ym --save-dev
-```
-
-Now it's possible to create blocks with `bem create` command:
+It is possible to create blocks with `bem create` command:
 
 ```bash
 bem create new-block
