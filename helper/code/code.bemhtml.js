@@ -1,0 +1,3 @@
+block('code')(
+    tag()('code')
+);
