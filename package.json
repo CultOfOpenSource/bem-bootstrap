@@ -44,7 +44,6 @@
     "bem": "github:ilyar/bem-tools",
     "bem-config": "^3.2.3",
     "bem-core": "^4.2.1",
-    "bootstrap": "^4.0.0-beta",
     "enb": "^1.5.1",
     "enb-bem-techs": "^2.2.2",
     "enb-bemxjst": "^8.6.7",
@@ -52,8 +51,6 @@
     "enb-html-to-bemjson": "^0.3.0",
     "enb-js": "^1.1.1",
     "enb-postcss": "^2.0.0",
-    "jquery": "^3",
-    "popper.js": "^1",
     "postcss-cssnext": "^3.0.2",
     "ym": "^0.1.2"
   }
