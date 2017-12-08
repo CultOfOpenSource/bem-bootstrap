@@ -34,6 +34,7 @@
   "scripts": {
     "test": "npm run build && npm run spec-tmpl",
     "spec-tmpl": "enb make tmpl-specs",
+    "spec-tmpl-save": "BEM_TMPL_SPECS_SAVE_REFERENCE_HTML=1 npm run spec-tmpl",
     "start": "enb server",
     "build": "enb make"
   },
