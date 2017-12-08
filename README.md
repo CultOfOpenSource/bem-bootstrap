@@ -1,5 +1,7 @@
 # BEM with Bootstrap <img src="http://getbootstrap.com/assets/img/bootstrap-stack.png" alt="Bootstrap Logo" width="90" height="90" align="right"> <img src="https://cdn.worldvectorlogo.com/logos/bem-2.svg" alt="BEM Logo" width="90" height="90" align="right">
 
+[![Build Status](https://travis-ci.org/CultOfOpenSource/bem-bootstrap.svg?branch=master)](https://travis-ci.org/CultOfOpenSource/bem-bootstrap)
+
 ## Usage
 
     npm i -D bem-bootstrap
