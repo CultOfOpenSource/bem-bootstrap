@@ -20,7 +20,7 @@ block('alert').mod('dismissible', true)(
                 content : {
                     tag : 'span',
                     attrs : {
-                        'aria-hidden' : true,
+                        'aria-hidden' : 'true',
                     },
                     content : '&times;'
                 }
