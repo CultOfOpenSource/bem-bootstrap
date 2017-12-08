@@ -30,7 +30,7 @@
     "prismjs": "^1.6.0"
   },
   "scripts": {
-    "test": "enb make && enb make clean && gulp",
+    "test": "enb make && enb make clean",
     "start": "enb server",
     "build": "enb make"
   },
