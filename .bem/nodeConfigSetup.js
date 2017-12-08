@@ -1,8 +1,4 @@
 const techs = require('./techs');
-const naming = {
-    elem: '-',
-    mod: '-'
-};
 const coreLevels = [
     { path: 'node_modules/bem-core/common.blocks', check: false },
     { path: 'node_modules/bem-core/desktop.blocks', check: false },
@@ -12,12 +8,20 @@ const coreLevels = [
  *
  * @param {Array} levels
  * @param {boolean} isProd
+ * @param {object} naming
  * @returns Array
  */
-module.exports = function (levels, isProd) {
+module.exports = function (levels, isProd, naming) {
 
     if (typeof isProd === "undefined") {
         isProd = process.env.YENV === 'production';
+    }
+
+    if (typeof naming === "undefined") {
+        naming = {
+            elem: '-',
+            mod: '-'
+        };
     }
 
     levels = coreLevels.concat(levels);
