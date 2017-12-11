@@ -5,6 +5,7 @@ module.exports = {
     head: [
         { elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' } },
         { elem: 'css', url: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css' },
+        { elem: 'css', url: 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css' },
         { elem: 'css', url: '/bundles/demo/demo.min.css' }
     ],
     scripts: [
