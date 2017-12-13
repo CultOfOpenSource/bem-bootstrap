@@ -88,15 +88,19 @@ module.exports = {
 					style: 'width: 20rem;',
 				},
 				content: [{
-					block: 'card-img-top',
-					url: '...',
+                    elem: 'img',
+                    elemMods: {top: true},
+                    attrs: {
+                        alt: "Card image cap",
+                        src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                    },
 				}, {
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'This is some text within a card body.'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "Some quick example text to build on the card title and make up the bulk of the card's content."
 					}, {
 						block: 'btn',
@@ -107,7 +111,8 @@ module.exports = {
 						content: 'Go somewhere'
 					}, ],
 				}, ]
-			}]
+            }
+        ]
 		}, {
 			tag: 'h2',
 			content: {
@@ -245,31 +250,31 @@ module.exports = {
 					style: 'width: 20rem;',
 				},
 				content: [{
-					block: 'card-body',
-					content: [{
-						block: 'card-title',
-						content: 'Card title'
-					}, {
-						block: 'card-subtitle',
-						mix: [{
-							block: 'mb-2',
-						}, {
-							block: 'text-muted',
-						}],
-						content: 'Card subtitle'
-					}, {
-						block: 'card-text',
-						content: "Some quick example text to build on the card title and make up the bulk of the card's content."
-					}, {
-						block: 'card-link',
-						url: '#',
-						content: 'Card link'
-					}, {
-						block: 'card-link',
-						url: '#',
-						content: 'Another link'
-					}, ],
-				}, ]
+                    elem: 'body',
+                    content: [{
+                        elem: 'title',
+                        content: 'Card title'
+                    }, {
+                        elem: 'subtitle',
+                        mix: [{
+                            block: 'mb-2',
+                        }, {
+                            block: 'text-muted',
+                        }],
+                        content: 'Card subtitle'
+                    }, {
+                        elem: 'text',
+                        content: "Some quick example text to build on the card title and make up the bulk of the card's content."
+                    }, {
+                        elem: 'link',
+                        url: '#',
+                        content: 'Card link'
+                    }, {
+                        elem: 'link',
+                        url: '#',
+                        content: 'Another link'
+                    }, ],
+                }, ]
 			}
 		}, {
 			tag: 'h3',
@@ -313,12 +318,16 @@ module.exports = {
 					style: 'width: 20rem;',
 				},
 				content: [{
-					block: 'card-img-top',
-					url: '...',
-				}, {
-					block: 'card-body',
+					elem: 'img',
+                    elemMods: {top: true},
+                    attrs: {
+                        alt: "Card image cap",
+                        src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                    },
+				},{
+					elem: 'body',
 					content: [{
-						block: 'card-text',
+						elem: 'text',
 						content: "Some quick example text to build on the card title and make up the bulk of the card's content."
 					}, ],
 				}, ]
@@ -352,16 +361,25 @@ module.exports = {
 				content: [{
 					block: 'list-group',
 					mix: {
-						"block": "list-group-flush"
+						"elem": "flush"
 					},
 					content: [{
-						block: 'list-group-item',
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
 						content: "Cras justo odio"
 					}, {
-						block: 'list-group-item',
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
 						content: "Dapibus ac facilisis in"
 					}, {
-						block: 'list-group-item',
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
 						content: "Vestibulum at eros"
 					}, ],
 				}, ]
@@ -374,21 +392,30 @@ module.exports = {
 					style: 'width: 20rem;',
 				},
 				content: [{
-					block: 'card-header',
+					elem: 'header',
 					content: 'Featured',
-				}, {
+				},{
 					block: 'list-group',
 					mix: {
-						"block": "list-group-flush"
+						"elem": "flush"
 					},
 					content: [{
-						block: 'list-group-item',
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
 						content: "Cras justo odio"
 					}, {
-						block: 'list-group-item',
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
 						content: "Dapibus ac facilisis in"
 					}, {
-						block: 'list-group-item',
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
 						content: "Vestibulum at eros"
 					}, ],
 				}, ]
@@ -420,51 +447,60 @@ module.exports = {
 					"style": "width: 20rem;"
 				},
 				"content": [{
-					"block": "card-img-top"
-				}, {
-					"block": "card-body",
-					"content": [{
-						"block": "card-title",
-						"content": "Card title"
-					}, {
-						"block": "card-subtitle",
-						"mix": [{
-							"block": "mb-2"
-						}, {
-							"block": "text-muted"
-						}],
-						"content": "Card subtitle"
-					}, {
-						"block": "card-text",
-						"content": "Some quick example text to build on the card title and make up the bulk of the card's content."
-					}]
-				}, {
-					"block": "list-group",
-					"mix": {
-						"block": "list-group-flush"
-					},
-					"content": [{
-						"block": "list-group-item",
-						"content": "Cras justo odio"
-					}, {
-						"block": "list-group-item",
-						"content": "Dapibus ac facilisis in"
-					}, {
-						"block": "list-group-item",
-						"content": "Vestibulum at eros"
-					}]
-				}, {
-					"block": "card-body",
-					"content": [{
-						"block": "card-link",
-						"url": "#",
-						"content": "Card link"
-					}, {
-						"block": "card-link",
-						"url": "#",
-						"content": "Another link"
-					}]
-				}]
+                    elem: 'img',
+                    elemMods: {top: true},
+                    attrs: {
+                        alt: "text",
+                        src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                    },
+                }, {
+                    elem: 'body',
+                    content: [{
+                        elem:'title',
+                        content: 'Card title',
+                    },
+                    {
+                        elem: 'text',
+                        content: "Some quick example text to build on the card title and make up the bulk of the card's content."
+                    }, ],
+                },
+                {
+                    block: 'list-group',
+                    mix: {
+                        "elem": "flush"
+                    },
+                    content: [{
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
+                        content: "Cras justo odio"
+                    }, {
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
+                        content: "Dapibus ac facilisis in"
+                    }, {
+                        elem: 'item',
+                        elemMods: {
+                            "item": true
+                           },
+                        content: "Vestibulum at eros"
+                    },
+        ],
+                },            {
+                    elem: 'body',
+                    content: [{
+                        elem: 'link',
+                        url: '#',
+                        content: 'Card link'
+                    }, {
+                        elem: 'link',
+                        url: '#',
+                        content: 'Another link'
+                    }, ],
+                }, ]
 			}
 		}, {
 			tag: 'h3',
@@ -488,26 +524,27 @@ module.exports = {
 		}, {
 			block: 'example',
 			content: {
-				block: 'card',
-				content: [{
-					block: 'card-header',
-					content: 'Featured',
-				}, {
-					block: 'card-body',
-					content: [{
-						block: 'card-title',
-						content: 'Special title treatment',
-					}, {
-						block: 'card-text',
-						content: 'With supporting text below as a natural lead-in to additional content.',
-					}, {
+                block: 'card',
+                content: [{
+                    elem: 'header',
+                    content: 'Featured',
+                }, {
+                    elem: 'body',
+                    content: [{
+                        elem: 'title',
+                        content: 'Special title treatment',
+                    }, {
+                        elem: 'text',
+                        content: 'With supporting text below as a natural lead-in to additional content.',
+                    },
+                    {
 						block: 'btn',
 						mix: 'btn-primary',
 						url: '#',
 						content: 'Go somewhere',
-					}, ],
-				}]
-			}
+					},],
+                }]
+            }
 		}, {
 			tag: 'p',
 			content: [{
@@ -531,16 +568,15 @@ module.exports = {
 			content: {
 				block: 'card',
 				content: [{
-					block: 'card-header',
-					tag: 'h4',
+					elem: 'header',
 					content: 'Featured',
 				}, {
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'Special title treatment',
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: 'With supporting text below as a natural lead-in to additional content.',
 					}, {
 						block: 'btn',
@@ -553,49 +589,48 @@ module.exports = {
 		}, {
 			block: 'example',
 			content: {
-				block: 'card',
-				content: [{
-					block: 'card-header',
-					content: 'Quote',
-				}, {
-					block: 'card-body',
-					content: [{
-						block: 'blockquote',
-						mix: 'mb-0',
-						content: [{
-							tag: 'p',
-							content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
-						}, {
-							block: 'blockquote-footer',
-							content: [{
-								"html": "Someone famous in "
-							}, {
-								"tag": "cite",
-								"attrs": {
-									"title": "Source Title"
-								},
-								"content": "Source Title"
-							}]
-						}, ]
-					}, ],
-				}]
-			}
+                block: 'card',
+                content: [{
+                    elem: 'header',
+                    content: 'Quote',
+                }, {
+                    elem: 'body',
+                    content: [{
+                        block: 'blockquote',
+                        mix: 'mb-0',
+                        content: [{
+                            tag: 'p',
+                            content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.',
+                        }, {
+                            block: 'blockquote-footer',
+                            content: [{
+                                "html": "Someone famous in "
+                            }, {
+                                "tag": "cite",
+                                "attrs": {
+                                    "title": "Source Title"
+                                },
+                                "content": "Source Title"
+                            }]
+                        }, ]
+                    }, ],
+                }]
+            }
 		}, {
 			block: 'example',
 			content: {
 				block: 'card',
 				mix: 'text-center',
 				content: [{
-					block: 'card-header',
-					tag: 'h4',
+					elem: 'header',
 					content: 'Featured',
 				}, {
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'Special title treatment',
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: 'With supporting text below as a natural lead-in to additional content.',
 					}, {
 						block: 'btn',
@@ -604,7 +639,7 @@ module.exports = {
 						content: 'Go somewhere',
 					}, ],
 				}, {
-					block: 'card-footer',
+					elem: 'footer',
 					mix: 'text-muted',
 					content: '2 days ago',
 				}, ]
