@@ -20,31 +20,6 @@
             }, ],
         },
         {
-            block: 'list-group',
-            mix: {
-                "elem": "flush"
-            },
-            content: [{
-                elem: 'item',
-                elemMods: {
-                    "item": true
-                   },
-                content: "text"
-            }, {
-                elem: 'item',
-                elemMods: {
-                    "item": true
-                   },
-                content: "text"
-            }, {
-                elem: 'item',
-                elemMods: {
-                    "item": true
-                   },
-                content: "text"
-            },
-],
-        },            {
             elem: 'body',
             content: [{
                 elem: 'link',

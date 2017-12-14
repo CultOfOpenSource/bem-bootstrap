@@ -8,11 +8,6 @@
                 content: 'Card title'
             }, {
                 elem: 'subtitle',
-                mix: [{
-                    block: 'mb-2',
-                }, {
-                    block: 'text-muted',
-                }],
                 content: 'Card subtitle'
             }, {
                 elem: 'text',
