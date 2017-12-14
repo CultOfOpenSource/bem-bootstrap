@@ -700,12 +700,12 @@ module.exports = {
 							style: 'width: 20rem;',
 						},
 						content: [{
-							block: 'card-body',
+							elem: 'body',
 							content: [{
-								block: 'card-title',
+								elem: 'title',
 								content: 'Special title treatment'
 							}, {
-								block: 'card-text',
+								elem: 'text',
 								content: "With supporting text below as a natural lead-in to additional content."
 							}, {
 								block: 'btn',
@@ -725,12 +725,12 @@ module.exports = {
 							style: 'width: 20rem;',
 						},
 						content: [{
-							block: 'card-body',
+							elem: 'body',
 							content: [{
-								block: 'card-title',
+								elem: 'title',
 								content: 'Special title treatment'
 							}, {
-								block: 'card-text',
+								elem: 'text',
 								content: "With supporting text below as a natural lead-in to additional content."
 							}, {
 								block: 'btn',
@@ -775,12 +775,12 @@ module.exports = {
 				block: 'card',
 				mix: 'w-75',
 				content: [{
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
-						content: 'Special title treatment'
+						elem: 'title',
+						content: 'Card title'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "With supporting text below as a natural lead-in to additional content."
 					}, {
 						block: 'btn',
@@ -794,16 +794,13 @@ module.exports = {
 			}, {
 				block: 'card',
 				mix: 'w-50',
-				attrs: {
-					style: 'width: 20rem;',
-				},
 				content: [{
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
-						content: 'Special title treatment'
+						elem: 'title',
+						content: 'Card title'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "With supporting text below as a natural lead-in to additional content."
 					}, {
 						block: 'btn',
@@ -842,12 +839,12 @@ module.exports = {
 					style: 'width: 20rem;',
 				},
 				content: [{
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'Special title treatment'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "With supporting text below as a natural lead-in to additional content."
 					}, {
 						block: 'btn',
@@ -889,12 +886,12 @@ module.exports = {
 					style: 'width: 20rem;',
 				},
 				content: [{
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'Special title treatment'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "With supporting text below as a natural lead-in to additional content."
 					}, {
 						block: 'btn',
@@ -912,12 +909,12 @@ module.exports = {
 					style: 'width: 20rem;',
 				},
 				content: [{
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'Special title treatment'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "With supporting text below as a natural lead-in to additional content."
 					}, {
 						block: 'btn',
@@ -935,12 +932,12 @@ module.exports = {
 					style: 'width: 20rem;',
 				},
 				content: [{
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'Special title treatment'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "With supporting text below as a natural lead-in to additional content."
 					}, {
 						block: 'btn',
@@ -980,33 +977,33 @@ module.exports = {
 				block: 'card',
 				mix: 'text-center',
 				content: [{
-					block: 'card-header',
+					elem: 'header',
 					content: [{
 						block: 'nav',
 						mix: [{
-							block: 'nav-tabs'
+							elem: 'tabs'
 						}, {
 							block: 'card-header-tabs',
 						}],
 						content: [{
-							block: 'nav-item',
+							elem: 'item',
 							content: {
-								block: 'nav-link',
+								elem: 'link',
 								url: '#',
 								content: 'Active',
 								mix: 'active',
 							},
 						}, {
-							block: 'nav-item',
+							elem: 'item',
 							content: {
-								block: 'nav-link',
+								elem: 'link',
 								url: '#',
 								content: 'Link',
 							},
 						}, {
-							block: 'nav-item',
+							elem: 'item',
 							content: {
-								block: 'nav-link',
+								elem: 'link',
 								url: '#',
 								content: 'Disabled',
 								mix: 'disabled',
@@ -1014,12 +1011,12 @@ module.exports = {
 						}, ],
 					}],
 				}, {
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'Special title treatment'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "With supporting text below as a natural lead-in to additional content."
 					}, {
 						block: 'btn',
@@ -1037,33 +1034,33 @@ module.exports = {
 				block: 'card',
 				mix: 'text-center',
 				content: [{
-					block: 'card-header',
+					elem: 'header',
 					content: [{
 						block: 'nav',
 						mix: [{
-							block: 'nav-pills'
+							elem: 'pills'
 						}, {
 							block: 'card-header-pills',
 						}],
 						content: [{
-							block: 'nav-item',
+							elem: 'item',
 							content: {
-								block: 'nav-link',
+								elem: 'link',
 								url: '#',
 								content: 'Active',
 								mix: 'active',
 							},
 						}, {
-							block: 'nav-item',
+							elem: 'item',
 							content: {
-								block: 'nav-link',
+								elem: 'link',
 								url: '#',
 								content: 'Link',
 							},
 						}, {
-							block: 'nav-item',
+							elem: 'item',
 							content: {
-								block: 'nav-link',
+								elem: 'link',
 								url: '#',
 								content: 'Disabled',
 								mix: 'disabled',
@@ -1071,12 +1068,12 @@ module.exports = {
 						}, ],
 					}],
 				}, {
-					block: 'card-body',
+					elem: 'body',
 					content: [{
-						block: 'card-title',
+						elem: 'title',
 						content: 'Special title treatment'
 					}, {
-						block: 'card-text',
+						elem: 'text',
 						content: "With supporting text below as a natural lead-in to additional content."
 					}, {
 						block: 'btn',
@@ -1125,18 +1122,22 @@ module.exports = {
 				"block": "card",
 				mix: 'mb-3',
 				"content": [{
-					"block": "card-img-top",
-					url: '...',
+                    elem: 'img',
+                    elemMods: {top: true},
+                    attrs: {
+                        alt: "Card image cap",
+                        src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                },
 				}, {
-					"block": "card-body",
+					"elem": "body",
 					"content": [{
-						"block": "card-title",
+						"elem": "title",
 						"content": "Card title"
 					}, {
-						"block": "card-text",
+						"elem": "text",
 						"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
 					}, {
-						"block": "card-text",
+						"elem": "text",
 						"content": [{
 							"block": "text-muted",
 							"content": "Last updated 3 mins ago"
@@ -1146,23 +1147,27 @@ module.exports = {
 			}, {
 				"block": "card",
 				"content": [{
-					"block": "card-body",
+					"elem": "body",
 					"content": [{
-						"block": "card-title",
+						"elem": "title",
 						"content": "Card title"
 					}, {
-						"block": "card-text",
+						"elem": "text",
 						"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
 					}, {
-						"block": "card-text",
+						"elem": "text",
 						"content": [{
 							"block": "text-muted",
 							"content": "Last updated 3 mins ago"
 						}]
 					}]
 				}, {
-					"block": "card-img-bottom",
-					url: '...',
+                    elem: 'img',
+                    elemMods: {bottom: true},
+                    attrs: {
+                        alt: "Card image cap",
+                        src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                },
 				}, ]
 			}, ],
 		}, {
@@ -1185,8 +1190,6 @@ module.exports = {
 				content: ["Turn an image into a card background and overlay your card’s text. Depending on the image, you may or may not need additional styles or utilities."]
 			}, ]
 		}, {
-			block: 'example',
-			content: {
 				block: 'example',
 				content: ['dark', ].map(function(modName) {
 					var mod = {};
@@ -1199,24 +1202,26 @@ module.exports = {
 							"block": 'text-white',
 						}, ],
 						content: [{
-							block: 'card-img-top',
-							url: '...',
+                            elem: 'img',
+                            attrs: {
+                                alt: "Card image cap",
+                                src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                            },
 						}, {
-							block: 'card-img-overlay',
+							elem: 'img-overlay',
 							content: [{
-								block: 'card-title',
+								elem: 'title',
 								content: 'Card title',
 							}, {
-								block: 'card-text',
+								elem: 'text',
 								content: "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.",
 							}, {
-								block: 'card-text',
+								elem: 'text',
 								content: "Last updated 3 mins ago",
 							}, ],
 						}, ],
 					}
 				})
-			},
 		}, {
 			tag: 'h2',
 			content: {
@@ -1271,7 +1276,6 @@ module.exports = {
 					mix: [{
 						"block": 'bg-' + modName,
                     },
-                    //Попытался использовать match, чтобы у белой карточки был text-dark, но что-то не пошло...
                     {
 						"block": 'text-white',
 					}, {
@@ -1281,15 +1285,15 @@ module.exports = {
 						style: 'width: 20rem;',
 					},
 					content: [{
-						block: 'card-header',
+						elem: 'header',
 						content: 'Header',
 					}, {
-						block: 'card-body',
+						elem: 'body',
 						content: [{
-							block: 'card-title',
+							elem: 'title',
 							content: modName + ' card title',
 						}, {
-							block: 'card-text',
+							elem: 'text',
 							content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
 						}, ],
 					}, ],
@@ -1354,19 +1358,18 @@ module.exports = {
 						style: 'width: 20rem;',
 					},
 					content: [{
-						block: 'card-header',
+						elem: 'header',
 						content: 'Header',
 					}, {
-						block: 'card-body',
+						elem: 'body',
 						mix: [{
-                            //Такая же проблема с цветом текста
 							"block": 'text-' + modName,
 						}, ],
 						content: [{
-							block: 'card-title',
+							elem: 'title',
 							content: modName + ' card title',
 						}, {
-							block: 'card-text',
+							elem: 'text',
 							content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
 						}, ],
 					}, ],
@@ -1416,7 +1419,7 @@ module.exports = {
 						style: 'width: 20rem;',
 					},
 					content: [{
-						block: 'card-header',
+						elem: 'header',
 						content: 'Header',
 						mix: [{
 							"block": 'bg-transparent',
@@ -1424,19 +1427,19 @@ module.exports = {
 							"block": 'border-' + modName,
 						}, ],
 					}, {
-						block: 'card-body',
+						elem: 'body',
 						mix: [{
 							"block": 'text-' + modName,
 						}, ],
 						content: [{
-							block: 'card-title',
+							elem: 'title',
 							content: modName + ' card title',
 						}, {
-							block: 'card-text',
+							elem: 'text',
 							content: "Some quick example text to build on the card title and make up the bulk of the card's content.",
 						}, ],
 					}, {
-						block: 'card-footer',
+						elem: 'footer',
 						content: 'Footer',
 						mix: [{
 							"block": 'bg-transparent',
@@ -1497,18 +1500,22 @@ module.exports = {
 				"content": [{
 					"block": "card",
 					"content": [{
-						"block": "card-img-top",
-						url: '...',
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
 					}, {
-						"block": "card-body",
+						"elem": "body",
 						"content": [{
-							"block": "card-title",
+							"elem": "title",
 							"content": "Card title"
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": [{
 								"block": "text-muted",
 								"content": "Last updated 3 mins ago"
@@ -1518,18 +1525,22 @@ module.exports = {
 				}, {
 					"block": "card",
 					"content": [{
-						"block": "card-img-top",
-						url: '...',
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
 					}, {
-						"block": "card-body",
+						"elem": "body",
 						"content": [{
-							"block": "card-title",
+							"elem": "title",
 							"content": "Card title"
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": "This card has supporting text below as a natural lead-in to additional content."
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": [{
 								"block": "text-muted",
 								"content": "Last updated 3 mins ago"
@@ -1539,18 +1550,22 @@ module.exports = {
 				}, {
 					"block": "card",
 					"content": [{
-						"block": "card-img-top",
-						url: '...',
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
 					}, {
-						"block": "card-body",
+						"elem": "body",
 						"content": [{
-							"block": "card-title",
+							"elem": "title",
 							"content": "Card title"
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action."
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": [{
 								"block": "text-muted",
 								"content": "Last updated 3 mins ago"
@@ -1568,72 +1583,84 @@ module.exports = {
 		}, {
 			block: 'example',
 			content: {
-				block: 'card-group',
-				"content": [{
-					"block": "card",
-					"content": [{
-						"block": "card-img-top",
-						url: '...',
-					}, {
-						"block": "card-body",
-						"content": [{
-							"block": "card-title",
-							"content": "Card title"
-						}, {
-							"block": "card-text",
-							"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-						}, ]
-					}, {
-						"block": "card-footer",
-						"content": [{
-							"block": "text-muted",
-							"content": "Last updated 3 mins ago"
-						}]
-					}, ]
-				}, {
-					"block": "card",
-					"content": [{
-						"block": "card-img-top",
-						url: '...',
-					}, {
-						"block": "card-body",
-						"content": [{
-							"block": "card-title",
-							"content": "Card title"
-						}, {
-							"block": "card-text",
-							"content": "This card has supporting text below as a natural lead-in to additional content."
-						}, ]
-					}, {
-						"block": "card-footer",
-						"content": [{
-							"block": "text-muted",
-							"content": "Last updated 3 mins ago"
-						}]
-					}, ]
-				}, {
-					"block": "card",
-					"content": [{
-						"block": "card-img-top",
-						url: '...',
-					}, {
-						"block": "card-body",
-						"content": [{
-							"block": "card-title",
-							"content": "Card title"
-						}, {
-							"block": "card-text",
-							"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action."
-						}, ]
-					}, {
-						"block": "card-footer",
-						"content": [{
-							"block": "text-muted",
-							"content": "Last updated 3 mins ago"
-						}]
-					}, ]
-				}, ]
-			}
+                block: 'card-group',
+                "content": [{
+                    "block": "card",
+                    "content": [{
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
+                    }, {
+                        "elem": "body",
+                        "content": [{
+                            "elem": "title",
+                            "content": "Card title"
+                        }, {
+                            "elem": "text",
+                            "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+                        },]
+                    }, {
+                        "elem": "footer",
+                        "content": [{
+                            "block": "text-muted",
+                            "content": "Last updated 3 mins ago"
+                        }]
+                    },]
+                }, {
+                    "block": "card",
+                    "content": [{
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
+                    }, {
+                        "elem": "body",
+                        "content": [{
+                            "elem": "title",
+                            "content": "Card title"
+                        }, {
+                            "elem": "text",
+                            "content": "This card has supporting text below as a natural lead-in to additional content."
+                        },]
+                    }, {
+                        "elem": "footer",
+                        "content": [{
+                            "block": "text-muted",
+                            "content": "Last updated 3 mins ago"
+                        }]
+                    },]
+                }, {
+                    "block": "card",
+                    "content": [{
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
+                    }, {
+                        "elem": "body",
+                        "content": [{
+                            "elem": "title",
+                            "content": "Card title"
+                        }, {
+                            "elem": "text",
+                            "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action."
+                        },]
+                    }, {
+                        "elem": "footer",
+                        "content": [{
+                            "block": "text-muted",
+                            "content": "Last updated 3 mins ago"
+                        }]
+                    },]
+                }, ]
+            }
 		}, {
 			tag: 'h3',
 			content: {
@@ -1660,18 +1687,22 @@ module.exports = {
 				"content": [{
 					"block": "card",
 					"content": [{
-						"block": "card-img-top",
-						url: '...',
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
 					}, {
-						"block": "card-body",
+						"elem": "body",
 						"content": [{
-							"block": "card-title",
+							"elem": "title",
 							"content": "Card title"
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": [{
 								"block": "text-muted",
 								"content": "Last updated 3 mins ago"
@@ -1681,18 +1712,22 @@ module.exports = {
 				}, {
 					"block": "card",
 					"content": [{
-						"block": "card-img-top",
-						url: '...',
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
 					}, {
-						"block": "card-body",
+						"elem": "body",
 						"content": [{
-							"block": "card-title",
+							"elem": "title",
 							"content": "Card title"
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": "This card has supporting text below as a natural lead-in to additional content."
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": [{
 								"block": "text-muted",
 								"content": "Last updated 3 mins ago"
@@ -1702,18 +1737,22 @@ module.exports = {
 				}, {
 					"block": "card",
 					"content": [{
-						"block": "card-img-top",
-						url: '...',
+                        elem: 'img',
+                        elemMods: {top: true},
+                        attrs: {
+                            alt: "Card image cap",
+                            src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                        },
 					}, {
-						"block": "card-body",
+						"elem": "body",
 						"content": [{
-							"block": "card-title",
+							"elem": "title",
 							"content": "Card title"
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action."
 						}, {
-							"block": "card-text",
+							"elem": "text",
 							"content": [{
 								"block": "text-muted",
 								"content": "Last updated 3 mins ago"
@@ -1730,72 +1769,84 @@ module.exports = {
 			}, {
 				block: 'example',
 				content: {
-					block: 'card-deck',
-					"content": [{
-						"block": "card",
-						"content": [{
-							"block": "card-img-top",
-							url: '...',
-						}, {
-							"block": "card-body",
-							"content": [{
-								"block": "card-title",
-								"content": "Card title"
-							}, {
-								"block": "card-text",
-								"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-							}, ]
-						}, {
-							"block": "card-footer",
-							"content": [{
-								"block": "text-muted",
-								"content": "Last updated 3 mins ago"
-							}]
-						}, ]
-					}, {
-						"block": "card",
-						"content": [{
-							"block": "card-img-top",
-							url: '...',
-						}, {
-							"block": "card-body",
-							"content": [{
-								"block": "card-title",
-								"content": "Card title"
-							}, {
-								"block": "card-text",
-								"content": "This card has supporting text below as a natural lead-in to additional content."
-							}, ]
-						}, {
-							"block": "card-footer",
-							"content": [{
-								"block": "text-muted",
-								"content": "Last updated 3 mins ago"
-							}]
-						}, ]
-					}, {
-						"block": "card",
-						"content": [{
-							"block": "card-img-top",
-							url: '...',
-						}, {
-							"block": "card-body",
-							"content": [{
-								"block": "card-title",
-								"content": "Card title"
-							}, {
-								"block": "card-text",
-								"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action."
-							}, ]
-						}, {
-							"block": "card-footer",
-							"content": [{
-								"block": "text-muted",
-								"content": "Last updated 3 mins ago"
-							}]
-						}, ]
-					}, ]
-				}
+                    block: 'card-deck',
+                    "content": [{
+                        "block": "card",
+                        "content": [{
+                            elem: 'img',
+                            elemMods: {top: true},
+                            attrs: {
+                                alt: "Card image cap",
+                                src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                            },
+                        }, {
+                            "elem": "body",
+                            "content": [{
+                                "elem": "title",
+                                "content": "Card title"
+                            }, {
+                                "elem": "text",
+                                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+                            },]
+                        }, {
+                            "elem": "footer",
+                            "content": [{
+                                "block": "text-muted",
+                                "content": "Last updated 3 mins ago"
+                            }]
+                        },]
+                    }, {
+                        "block": "card",
+                        "content": [{
+                            elem: 'img',
+                            elemMods: {top: true},
+                            attrs: {
+                                alt: "Card image cap",
+                                src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                            },
+                        }, {
+                            "elem": "body",
+                            "content": [{
+                                "elem": "title",
+                                "content": "Card title"
+                            }, {
+                                "elem": "text",
+                                "content": "This card has supporting text below as a natural lead-in to additional content."
+                            },]
+                        }, {
+                            "elem": "footer",
+                            "content": [{
+                                "block": "text-muted",
+                                "content": "Last updated 3 mins ago"
+                            }]
+                        },]
+                    }, {
+                        "block": "card",
+                        "content": [{
+                            elem: 'img',
+                            elemMods: {top: true},
+                            attrs: {
+                                alt: "Card image cap",
+                                src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                            },
+                        }, {
+                            "elem": "body",
+                            "content": [{
+                                "elem": "title",
+                                "content": "Card title"
+                            }, {
+                                "elem": "text",
+                                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action."
+                            },]
+                        }, {
+                            "elem": "footer",
+                            "content": [{
+                                "block": "text-muted",
+                                "content": "Last updated 3 mins ago"
+                            }]
+                        },]
+                    }, ]
+                }
 			}, ]
 		}, {
 			tag: 'h3',
@@ -1852,189 +1903,201 @@ module.exports = {
 		}, {
 			block: 'example',
 			content: {
-				"content": [{
-					"block": "card-columns",
-					"content": [{
-						"block": "card",
-						"content": [{
-							"block": "card-img-top",
-							url: '...',
-						}, {
-							"block": "card-body",
-							"content": [{
-								"block": "card-title",
-								"content": "Card title that wraps to a new line"
-							}, {
-								"block": "card-text",
-								"content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
-							}]
-						}]
-					}, {
-						"block": "card",
-						"mix": {
-							"block": "p-3"
-						},
-						"content": [{
-							"block": "blockquote",
-							"mix": [{
-								"block": "mb-0"
-							}, {
-								"block": "card-body"
-							}],
-							"content": [{
-								"tag": "p",
-								"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-							}, {
-								"block": "blockquote-footer",
-								"content": [{
-									"block": "text-muted",
-									"content": [{
-										"html": "Someone famous in "
-									}, {
-										"tag": "cite",
-										"attrs": {
-											"title": "Source Title"
-										},
-										"content": "Source Title"
-									}]
-								}]
-							}]
-						}]
-					}, {
-						"block": "card",
-						"content": [{
-							"block": "card-img-top",
-							url: '...',
-						}, {
-							"block": "card-body",
-							"content": [{
-								"block": "card-title",
-								"content": "Card title"
-							}, {
-								"block": "card-text",
-								"content": "This card has supporting text below as a natural lead-in to additional content."
-							}, {
-								"block": "card-text",
-								"content": [{
-									"block": "text-muted",
-									"content": "Last updated 3 mins ago"
-								}]
-							}]
-						}]
-					}, {
-						"block": "card",
-						"mix": [{
-							"block": "bg-primary"
-						}, {
-							"block": "text-white"
-						}, {
-							"block": "text-center"
-						}, {
-							"block": "p-3"
-						}],
-						"content": [{
-							"block": "blockquote",
-							"mix": [{
-								"block": "mb-0"
-							}],
-							"content": [{
-								"tag": "p",
-								"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat."
-							}, {
-								"block": "blockquote-footer",
-								"content": [{
-									"block": "text-muted",
-									"content": [{
-										"html": "Someone famous in "
-									}, {
-										"tag": "cite",
-										"attrs": {
-											"title": "Source Title"
-										},
-										"content": "Source Title"
-									}]
-								}]
-							}]
-						}]
-					}, {
-						"block": "card",
-						"mix": [{
-							"block": "text-center"
-						}],
-						"content": [{
-							"block": "card-body",
-							"content": [{
-								"block": "card-title",
-								"content": "Card title"
-							}, {
-								"block": "card-text",
-								"content": "This card has supporting text below as a natural lead-in to additional content."
-							}, {
-								"block": "card-text",
-								"content": [{
-									"block": "text-muted",
-									"content": "Last updated 3 mins ago"
-								}]
-							}]
-						}]
-					}, {
-						"block": "card",
-						"content": [{
-							"block": "card-img-top",
-							url: '...',
-						}]
-					}, {
-						"block": "card",
-						"mix": [{
-							"block": "p-3"
-						}, {
-							"block": "text-right"
-						}],
-						"content": [{
-							"block": "blockquote",
-							"mix": [{
-								"block": "mb-0"
-							}],
-							"content": [{
-								"tag": "p",
-								"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-							}, {
-								"block": "blockquote-footer",
-								"content": [{
-									"block": "text-muted",
-									"content": [{
-										"html": "Someone famous in "
-									}, {
-										"tag": "cite",
-										"attrs": {
-											"title": "Source Title"
-										},
-										"content": "Source Title"
-									}]
-								}]
-							}]
-						}]
-					}, {
-						"block": "card",
-						"content": [{
-							"block": "card-body",
-							"content": [{
-								"block": "card-title",
-								"content": "Card title"
-							}, {
-								"block": "card-text",
-								"content": "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action."
-							}, {
-								"block": "card-text",
-								"content": [{
-									"block": "text-muted",
-									"content": "Last updated 3 mins ago"
-								}]
-							}]
-						}]
-					}, ]
-				}]
-			}
+                "content": [{
+                    "block": "card-columns",
+                    "content": [{
+                        "block": "card",
+                        "content": [{
+                            elem: 'img',
+                            elemMods: {top: true},
+                            attrs: {
+                                alt: "Card image cap",
+                                src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                            },
+                        }, {
+                            "elem": "body",
+                            "content": [{
+                                "elem": "title",
+                                "content": "Card title that wraps to a new line"
+                            }, {
+                                "elem": "text",
+                                "content": "This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer."
+                            }]
+                        }]
+                    }, {
+                        "block": "card",
+                        "mix": {
+                            "block": "p-3"
+                        },
+                        "content": [{
+                            "block": "blockquote",
+                            "mix": [{
+                                "block": "mb-0"
+                            }, {
+                                "block": "card-body"
+                            }],
+                            "content": [{
+                                "tag": "p",
+                                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+                            }, {
+                                "block": "blockquote-footer",
+                                "content": [{
+                                    "block": "text-muted",
+                                    "content": [{
+                                        "html": "Someone famous in "
+                                    }, {
+                                        "tag": "cite",
+                                        "attrs": {
+                                            "title": "Source Title"
+                                        },
+                                        "content": "Source Title"
+                                    }]
+                                }]
+                            }]
+                        }]
+                    }, {
+                        "block": "card",
+                        "content": [{
+                            elem: 'img',
+                            elemMods: {top: true},
+                            attrs: {
+                                alt: "Card image cap",
+                                src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                            },
+                        }, {
+                            "elem": "body",
+                            "content": [{
+                                "elem": "title",
+                                "content": "Card title"
+                            }, {
+                                "elem": "text",
+                                "content": "This card has supporting text below as a natural lead-in to additional content."
+                            }, {
+                                "elem": "text",
+                                "content": [{
+                                    "block": "text-muted",
+                                    "content": "Last updated 3 mins ago"
+                                }]
+                            }]
+                        }]
+                    }, {
+                        "block": "card",
+                        "mix": [{
+                            "block": "bg-primary"
+                        }, {
+                            "block": "text-white"
+                        }, {
+                            "block": "text-center"
+                        }, {
+                            "block": "p-3"
+                        }],
+                        "content": [{
+                            "block": "blockquote",
+                            "mix": [{
+                                "block": "mb-0"
+                            }],
+                            "content": [{
+                                "tag": "p",
+                                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat."
+                            }, {
+                                "block": "blockquote-footer",
+                                "content": [{
+                                    "block": "text-muted",
+                                    "content": [{
+                                        "html": "Someone famous in "
+                                    }, {
+                                        "tag": "cite",
+                                        "attrs": {
+                                            "title": "Source Title"
+                                        },
+                                        "content": "Source Title"
+                                    }]
+                                }]
+                            }]
+                        }]
+                    }, {
+                        "block": "card",
+                        "mix": [{
+                            "block": "text-center"
+                        }],
+                        "content": [{
+                            "block": "card-body",
+                            "content": [{
+                                "block": "card-title",
+                                "content": "Card title"
+                            }, {
+                                "block": "card-text",
+                                "content": "This card has supporting text below as a natural lead-in to additional content."
+                            }, {
+                                "block": "card-text",
+                                "content": [{
+                                    "block": "text-muted",
+                                    "content": "Last updated 3 mins ago"
+                                }]
+                            }]
+                        }]
+                    }, {
+                        "block": "card",
+                        "content": [{
+                            elem: 'img',
+                            elemMods: {top: true},
+                            attrs: {
+                                alt: "Card image cap",
+                                src: 'http://getbootstrap.com/assets/brand/bootstrap-social.png',
+                            },
+                        }]
+                    }, {
+                        "block": "card",
+                        "mix": [{
+                            "block": "p-3"
+                        }, {
+                            "block": "text-right"
+                        }],
+                        "content": [{
+                            "block": "blockquote",
+                            "mix": [{
+                                "block": "mb-0"
+                            }],
+                            "content": [{
+                                "tag": "p",
+                                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+                            }, {
+                                "block": "blockquote-footer",
+                                "content": [{
+                                    "block": "text-muted",
+                                    "content": [{
+                                        "html": "Someone famous in "
+                                    }, {
+                                        "tag": "cite",
+                                        "attrs": {
+                                            "title": "Source Title"
+                                        },
+                                        "content": "Source Title"
+                                    }]
+                                }]
+                            }]
+                        }]
+                    }, {
+                        "block": "card",
+                        "content": [{
+                            "elem": "body",
+                            "content": [{
+                                "elem": "title",
+                                "content": "Card title"
+                            }, {
+                                "elem": "text",
+                                "content": "This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action."
+                            }, {
+                                "elem": "text",
+                                "content": [{
+                                    "block": "text-muted",
+                                    "content": "Last updated 3 mins ago"
+                                }]
+                            }]
+                        }]
+                    }, ]
+                }]
+            }
 		}, {
 			tag: 'p',
 			content: [{
