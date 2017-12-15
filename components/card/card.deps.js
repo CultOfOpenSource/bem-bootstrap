@@ -1,0 +1,6 @@
+({
+    mustDeps: [
+        'bootstrap',
+        'util'
+    ]
+})
