@@ -6,6 +6,7 @@ const naming = {
 };
 const levels = [
     'helper',
+    'utilities',
     'components'
 ];
 

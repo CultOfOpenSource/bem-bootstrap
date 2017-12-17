@@ -47,6 +47,7 @@ module.exports = function (levels, isProd, naming) {
         // css
         [techs.postcss, {
             target: '?.css',
+            sourceSuffixes: ['post.css', 'css', 'pcss'],
             plugins: techs.postcssPlugins
         }],
 
