@@ -44,7 +44,7 @@
     "bem": "github:ilyar/bem-tools",
     "bem-config": "^3.2.3",
     "bem-core": "^4.2.1",
-    "bootstrap": "^4.0.0-beta.2",
+    "bootstrap": "^4",
     "enb": "^1.5.1",
     "enb-bem-techs": "^2.2.2",
     "enb-bemxjst": "^8.6.7",
